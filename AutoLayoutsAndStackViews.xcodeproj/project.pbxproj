@@ -13,6 +13,10 @@
 		DDFF3DF81E5E0FC000A8BA9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFF3DF61E5E0FC000A8BA9A /* Main.storyboard */; };
 		DDFF3DFA1E5E0FC000A8BA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFF3DF91E5E0FC000A8BA9A /* Assets.xcassets */; };
 		DDFF3DFD1E5E0FC000A8BA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFF3DFB1E5E0FC000A8BA9A /* LaunchScreen.storyboard */; };
+		DDFF3E091E5E1D4100A8BA9A /* Minnie.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DDFF3E081E5E1D4100A8BA9A /* Minnie.jpeg */; };
+		DDFF3E0B1E5E20F900A8BA9A /* KN AN.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DDFF3E0A1E5E20F900A8BA9A /* KN AN.jpeg */; };
+		DDFF3E311E5E2BEE00A8BA9A /* StackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF3E301E5E2BEE00A8BA9A /* StackViewController.m */; };
+		DDFF3E331E5F6AB200A8BA9A /* minnie1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DDFF3E321E5F6AB200A8BA9A /* minnie1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,11 @@
 		DDFF3DF91E5E0FC000A8BA9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDFF3DFC1E5E0FC000A8BA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDFF3DFE1E5E0FC000A8BA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFF3E081E5E1D4100A8BA9A /* Minnie.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Minnie.jpeg; sourceTree = "<group>"; };
+		DDFF3E0A1E5E20F900A8BA9A /* KN AN.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "KN AN.jpeg"; sourceTree = "<group>"; };
+		DDFF3E2F1E5E2BEE00A8BA9A /* StackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackViewController.h; sourceTree = "<group>"; };
+		DDFF3E301E5E2BEE00A8BA9A /* StackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackViewController.m; sourceTree = "<group>"; };
+		DDFF3E321E5F6AB200A8BA9A /* minnie1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minnie1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +71,12 @@
 				DDFF3DF11E5E0FC000A8BA9A /* AppDelegate.m */,
 				DDFF3DF31E5E0FC000A8BA9A /* ViewController.h */,
 				DDFF3DF41E5E0FC000A8BA9A /* ViewController.m */,
+				DDFF3E2F1E5E2BEE00A8BA9A /* StackViewController.h */,
+				DDFF3E321E5F6AB200A8BA9A /* minnie1.jpeg */,
+				DDFF3E301E5E2BEE00A8BA9A /* StackViewController.m */,
 				DDFF3DF61E5E0FC000A8BA9A /* Main.storyboard */,
+				DDFF3E0A1E5E20F900A8BA9A /* KN AN.jpeg */,
+				DDFF3E081E5E1D4100A8BA9A /* Minnie.jpeg */,
 				DDFF3DF91E5E0FC000A8BA9A /* Assets.xcassets */,
 				DDFF3DFB1E5E0FC000A8BA9A /* LaunchScreen.storyboard */,
 				DDFF3DFE1E5E0FC000A8BA9A /* Info.plist */,
@@ -138,7 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDFF3DFD1E5E0FC000A8BA9A /* LaunchScreen.storyboard in Resources */,
+				DDFF3E0B1E5E20F900A8BA9A /* KN AN.jpeg in Resources */,
 				DDFF3DFA1E5E0FC000A8BA9A /* Assets.xcassets in Resources */,
+				DDFF3E331E5F6AB200A8BA9A /* minnie1.jpeg in Resources */,
+				DDFF3E091E5E1D4100A8BA9A /* Minnie.jpeg in Resources */,
 				DDFF3DF81E5E0FC000A8BA9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDFF3DF51E5E0FC000A8BA9A /* ViewController.m in Sources */,
+				DDFF3E311E5E2BEE00A8BA9A /* StackViewController.m in Sources */,
 				DDFF3DF21E5E0FC000A8BA9A /* AppDelegate.m in Sources */,
 				DDFF3DEF1E5E0FC000A8BA9A /* main.m in Sources */,
 			);
